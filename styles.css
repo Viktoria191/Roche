@@ -1,0 +1,64 @@
+@font-face {
+  font-family: 'GENTO DREAM Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('GENTO DREAM Regular'), url('GentoDream-8MqpZ.woff') format('woff');
+}
+
+@import url('https://fonts.cdnfonts.com/css/afikathuan');
+
+body {
+  text-align: center;
+  background-color: #f0eedb;
+}
+
+.container1 {
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 5s steps(50) forwards;
+  text-align: center;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.word1,
+.word2 {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.word1 {
+  color: #c42d2d;
+}
+
+.word2 {
+  color: #452b28;
+}
+
+.word3 {
+  text-align: center;
+  font-family: 'AfikaThuan';
+  font-size: 100px;
+  color: #8e1818;
+  opacity: 0;
+  transform: translateY(-50px);
+  animation: slide-in 5s forwards;
+}
+
+@keyframes slide-in {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
