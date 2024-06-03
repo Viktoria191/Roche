@@ -254,3 +254,17 @@ body {
   line-height: 1.5;
   color: #080808;
 }
+
+.container10 {
+  margin-top: 100px;
+}
+
+.word10 {
+  display: block;
+  line-height: 1.5;
+  color: #b24f4e;
+}
+
+.word11 {
+  color: #c73938;
+}
