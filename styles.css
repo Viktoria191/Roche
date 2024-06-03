@@ -244,3 +244,13 @@ body {
   height: 380px;
   transform: rotate(-10deg);
 }
+
+.container9 {
+  margin-top: 150px;
+}
+
+.word9 {
+  display: block;
+  line-height: 1.5;
+  color: #080808;
+}
