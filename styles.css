@@ -124,3 +124,72 @@ body {
     transform: rotate(360deg);
   }
 }
+
+.container4 {
+  margin-top: 300px;
+  position: relative;
+}
+
+.img5 {
+  width: 500px;
+  height: 600px;
+  margin-left: 360px;
+}
+
+.word5 {
+  position: absolute;
+  display: block;
+  font-family: 'GENTO DREAM Regular', sans-serif;
+  font-size: 60px;
+  color: #b51c1c;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.word5-1 {
+  top: 10px;
+}
+.word5-2 {
+  top: 80px;
+}
+.word5-3 {
+  top: 150px;
+}
+.word5-4 {
+  top: 220px;
+}
+.word5-5 {
+  top: 290px;
+}
+.word5-6 {
+  top: 360px;
+}
+.word5-7 {
+  top: 430px;
+}
+
+@keyframes slideInFromLeft {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes slideInFromRight {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+
+.word6,
+.word7 {
+  display: block;
+  line-height: 1.5;
+  color: #080808;
+}
