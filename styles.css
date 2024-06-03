@@ -216,3 +216,13 @@ body {
   height: 280px;
   transform: rotate(30deg);
 }
+
+.container7 {
+  margin-top: 150px;
+}
+
+.word8 {
+  display: block;
+  line-height: 1.5;
+  color: #080808;
+}
