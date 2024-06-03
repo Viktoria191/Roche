@@ -268,3 +268,78 @@ body {
 .word11 {
   color: #c73938;
 }
+
+@media (max-width: 768px) {
+  .container1 {
+    white-space: normal;
+    animation: none;
+  }
+
+  .word1,
+  .word2 {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .word3 {
+    font-size: 60px;
+  }
+
+  .word4 {
+    margin-left: 650px;
+  }
+
+  .img2 {
+    height: auto;
+    top: auto;
+    position: static;
+  }
+
+  .img3 {
+    margin-left: -300px;
+  }
+
+  .img4 {
+    margin-left: -350px;
+  }
+  .container4 {
+    margin-top: 50px;
+  }
+
+  .img5 {
+    height: auto;
+    margin-left: 250px;
+  }
+
+  .word5 {
+    font-size: 30px;
+  }
+
+  .word6,
+  .word7,
+  .word8,
+  .word9,
+  .word10 {
+    font-size: 16px;
+  }
+
+  .img6 {
+    height: auto;
+    left: 0;
+    top: auto;
+    position: static;
+  }
+
+  .img7 {
+    left: 500px;
+  }
+  .img8 {
+    width: 600px;
+  }
+  .img9 {
+    width: 100px;
+    height: auto;
+    left: 600px;
+    top: 150px;
+  }
+}
