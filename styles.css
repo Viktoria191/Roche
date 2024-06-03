@@ -226,3 +226,21 @@ body {
   line-height: 1.5;
   color: #080808;
 }
+
+.container8 {
+  position: relative;
+}
+
+.img8 {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.img9 {
+  position: absolute;
+  top: 150px;
+  left: 1100px;
+  width: 250px;
+  height: 380px;
+  transform: rotate(-10deg);
+}
