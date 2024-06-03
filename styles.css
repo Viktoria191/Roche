@@ -62,3 +62,65 @@ body {
     transform: translateY(0);
   }
 }
+.word4 {
+  display: inline-block;
+  transform: rotate(-10deg);
+  margin-left: -60px;
+  color: #b1525e;
+}
+
+.container3 {
+  position: relative;
+}
+
+.img2 {
+  text-align: center;
+  animation: rotate2 3s linear forwards;
+  transform: rotate(-5deg);
+}
+
+.img3 {
+  position: absolute;
+  top: 480px;
+  left: 500px;
+  width: 70px;
+  height: 140px;
+  animation: rotate3 3s linear forwards;
+  transform: rotate(5deg);
+}
+
+.img4 {
+  position: absolute;
+  width: 340px;
+  height: 150px;
+  left: 580px;
+  top: 150px;
+  animation: rotate4 3s linear forwards;
+}
+
+@keyframes rotate2 {
+  0% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(355deg);
+  }
+}
+
+@keyframes rotate3 {
+  0% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(365deg);
+  }
+}
+
+@keyframes rotate4 {
+  0% {
+    transform: none;
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
